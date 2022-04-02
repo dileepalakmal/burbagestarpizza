@@ -6,7 +6,7 @@ class AboutApp {
       "11 Windsor St, Burbage,\nHinckley LE10 2EE";
   static const String appWebsite = "www.burbagepizza.co.uk";
   static const String appEmail = "info@burbagepizza.co.uk";
-  static const String appPhone = "01455 234773";
+  static const String appPhone = "01455234773";
   static const String appHeaderTextTitle = "Delicious food for you";
   static const String appHeaderTextSubtitle = "Order Now";
 

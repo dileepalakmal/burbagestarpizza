@@ -46,7 +46,10 @@ class PageNavigation {
     );
   }
 
-  gotoContactPage() {
-    launch("tel://${AboutApp.appPhone}");
+  gotoContactPage() async {
+    debugPrint("CONTACT NUMBER : ${AboutApp.appPhone}");
+    if (!await launch("tel:${AboutApp.appPhone}")) {
+      throw 'Could not launch ${AboutApp.appPhone}';
+    }
   }
 }
