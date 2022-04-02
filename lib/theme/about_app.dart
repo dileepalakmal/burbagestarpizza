@@ -16,5 +16,5 @@ class AboutApp {
   static const String urlInstagram = 'https://instagram.com';
   static const String urlYouTube = 'https://youtube.com';
   static const String urlOnlineBite =
-      'https://onlinebite.co.uk/restaurants/burbage-star-pizza-burbage/-MLiGXX58kaKs5x_xi8c';
+      'https://onlinebite.co.uk';
 }
